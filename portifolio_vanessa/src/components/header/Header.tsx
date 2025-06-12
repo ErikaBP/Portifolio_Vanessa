@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
         <div className="menuItens">
           <h1 className='h1Header'>Sobre</h1>
           <h1 className='h1Header'>Projetos</h1>
-          <Link to="" className="linkHeader"> 
+          <Link to="/havaianas" className="linkHeader">  
             <h1 className='h1Header'>Havaianas</h1>
           </Link>
           <Link to="" className="linkHeader"> 

@@ -1,0 +1,59 @@
+.context {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    justify-content: center;
+    width: 90%;
+    gap: 20px;
+}
+
+.alpha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alphaTitle {
+    font-size: 30px;
+}
+
+.alphaText {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+}
+
+.pAlpha {
+    width: 650px;
+    line-height: 1.6;
+}
+
+.containerCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    justify-content: center;
+    gap: 5px;
+    height: 450px;
+    overflow: scroll;
+}
+
+.cardProfile {
+    display: block;
+    border-radius: 15%;
+    height: 430px;
+    align-content: center;
+    padding: 8px;
+}
