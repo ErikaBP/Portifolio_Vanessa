@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
     return (
       <div className="menu">
         <div className="menuItens">
-          <h1 className='h1Header'>Sobre</h1>
+          <h1 className='h1HeaderSobre'>Sobre</h1>
           <h1 className='h1Header'>Projetos</h1>
           <Link to="/havaianas" className="linkHeader">  
             <h1 className='h1Header'>Havaianas</h1>
