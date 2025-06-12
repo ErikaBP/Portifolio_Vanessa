@@ -33,6 +33,37 @@ const HomePage = () => {
                 </div>
             </div>
           </div>
+          <div className='contextFotosSinestesia'>
+            <img src="./images/foto1Sinestesia.svg" alt="Foto 1 Sinestesia" className='imagensSinestesia'/>
+            <img src="./images/foto2Sinestesia.svg" alt="Foto 2 Sinestesia" className='imagensSinestesia'/>
+            <img src="./images/foto3Sinestesia.svg" alt="Foto 3 Sinestesia" className='imagensSinestesia'/>
+            <img src="./images/foto4Sinestesia.svg" alt="Foto 4 Sinestesia" className='imagensSinestesia'/>
+          </div>
+          <div className='sinestesia'>
+            <img src="./images/scrreen.svg" alt="Scrreen" />
+          </div>
+          <div className='contextSinestesia'>
+            <div className='textSinestesia'>
+                <p className='pSobreScreen'>Projeto de impressão e diagramação. <b> Screen </b> é um revista híbrida, impressa e digital, voltada ao universo audiovisual do <b> terror </b>, <b> Noir </b> e <b> Expressionista </b> . O veículo busca ser fonte de divulgação para novas produções, garndes e independentes, e novos conteúdos do universo.</p>
+                <div className='estiloVerMaisScreen'>
+                    <Link to='https://drive.google.com/drive/folders/1ft9ltT62rM2vMB8-4QxmzRyKTbk1yjRg' className='verMais'>Ver mais</Link>
+                </div>
+            </div>
+            <video width="640" height="360" controls style={{ borderRadius: '15px' }}><source src="./videos/screen.mp4" type="video/mp4" /></video>
+          </div>
+          <div className='contextFotosSinestesia'>
+            <img src="./images/foto1Screen.svg" alt="Foto 1 Screen" className='imagensSinestesia'/>
+            <img src="./images/foto2Screen.svg" alt="Foto 2 Screen" className='imagensSinestesia'/>
+            <img src="./images/foto3Screen.svg" alt="Foto 3 Screen" className='imagensSinestesia'/>
+          </div>
+          <div className='footer'>
+            <Link to="https://www.instagram.com/vanskyfall?igshid=ZDdkNTZiNTM%3D" className='redes'>
+                <img src="./images/insta.svg" alt="Instagram" />
+            </Link>
+            <Link to="https://www.linkedin.com/in/vanessa-piaui-51b43a229/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='redes'>
+                <img src="./images/linkedin.svg" alt="Linkedin" />
+            </Link>
+          </div>
         </div>
       </div>
     );
