@@ -99,6 +99,7 @@
 
 .verMais:hover {
     transform: scale(1.1);
+    background-color: #D50647;;
 }
 
 .estiloVerMais {
