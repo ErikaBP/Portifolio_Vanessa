@@ -16,3 +16,24 @@
     width: 90%;
     gap: 20px;
 }
+
+.sobreMim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobreMimTitle {
+    font-size: 30px;
+}
+
+.sobreText {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+}
+
+.pSobre {
+    width: 650px;
+     line-height: 1.6;
+}
