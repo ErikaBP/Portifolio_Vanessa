@@ -5,9 +5,9 @@ import Header from '../../components/header/Header';
 import { Link } from 'react-router-dom';
 const HomePage = () => {
     return (
-      <div className="context">
+      <div className="contextSobre">
         <Header />
-        <div className="container">
+        <div className="containerSobre">
           <div className='contextText'>       
             <div className='sobreMim'>
                 <div className='sobreText'>
