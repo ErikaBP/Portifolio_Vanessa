@@ -39,21 +39,37 @@
 }
 
 .containerCards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    flex-direction: column;
-    margin-top: 20px;
-    padding-bottom: 25px;
-    justify-content: center;
-    gap: 5px;
-    height: 450px;
-    overflow: scroll;
+    display: flex;
+    width: 100%;
+    margin-top: 45px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
 }
 
-.cardProfile {
+.bpaConteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+}
+
+.bpaItem {
     display: block;
-    border-radius: 15%;
-    height: 430px;
-    align-content: center;
-    padding: 8px;
+    align-items: center;
+    max-width: 50%;
+    align-content: flex-start;
+}
+
+.images {
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+.ativo {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
