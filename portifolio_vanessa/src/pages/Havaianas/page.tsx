@@ -25,7 +25,7 @@ const HavaianasPage = () => {
           </div>
           <div className='bpaConteiner'>
             <div className="bpaItem">
-                <video className="images" controls><source src="./videos/bpa.mp4" type="video/mp4" /></video>
+                <video className="images" controls><source src="./videos/videoEstags.mp4" type="video/mp4" /></video>
                 <div className="ativo">
                     <img width="280" src="./images/Ativo 4.png" alt="cartela" />
                     <img width="280" src="./images/Ativo 5.png" alt="cartela" />
