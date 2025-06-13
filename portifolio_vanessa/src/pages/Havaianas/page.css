@@ -73,3 +73,16 @@
     grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
+
+.footerHavaianas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.redes:hover {
+    transform: scale(1.1);
+}

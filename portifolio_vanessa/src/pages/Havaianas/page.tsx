@@ -1,5 +1,6 @@
 import './page.css';
 import Header from '../../components/header/Header';
+import { Link } from 'react-router-dom';
 
 const HavaianasPage = () => {
     return (
@@ -29,6 +30,17 @@ const HavaianasPage = () => {
                 <img src="./images/cartela.png" alt="cartela" className="images"/>
                 <video className="images" controls ><source src="./videos/bpa.mp4" type="video/mp4" /></video>
             </div>
+          </div>
+          <div className='sinestesia'>
+            <img src="./images/havaianas.svg" alt="Scrreen" />
+          </div>
+          <div className='footerHavaianas'>
+            <Link to="https://www.instagram.com/vanskyfall?igshid=ZDdkNTZiNTM%3D" className='redes'>
+                <img src="./images/insta.svg" alt="Instagram" />
+            </Link>
+            <Link to="https://www.linkedin.com/in/vanessa-piaui-51b43a229/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='redes'>
+                <img src="./images/linkedin.svg" alt="Linkedin" />
+            </Link>
           </div>
         </div>
       </div>
