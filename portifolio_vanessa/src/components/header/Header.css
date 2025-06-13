@@ -30,7 +30,21 @@
     font-weight: 100;
 }
 
+.h1HeaderProjetos {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 100;
+}
+
 .h1Header:hover {
+    color: #DD4D00;
+}
+
+.h1HeaderProjetos:hover {
     color: #DD4D00;
 }
 
