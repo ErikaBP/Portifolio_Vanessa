@@ -17,7 +17,12 @@ const HavaianasPage = () => {
             </div>
             <img src="./images/vanessaAlpha.svg" alt="Vanessa" />
           </div>
-          <img className="containerCards" src="./images/fichas.svg" alt="Ficha 1" />
+          <div className='contextFotosAlpa'>
+            <img src="./images/foto1Alpa.svg" alt="Foto 1 Alpa" className='imagensSinestesia'/>
+            <img src="./images/foto2Alpa.svg" alt="Foto 2 Alpa" className='imagensSinestesia'/>
+            <img src="./images/foto3Alpa.svg" alt="Foto 3 Alpa" className='imagensSinestesia'/>
+            <img src="./images/foto4Alpa.svg" alt="Foto 4 Alpa" className='imagensSinestesia'/>
+          </div>
           <div className='bpaConteiner'>
             <div className="bpaItem">
                 <video className="images" controls><source src="./videos/bpa.mp4" type="video/mp4" /></video>
