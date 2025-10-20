@@ -20,7 +20,7 @@ const HavaianasPage = () => {
             <img src="./images/foto1Girafa.svg" alt="Foto 1 Girafa" className='imagensSinestesia'/>
             <img src="./images/foto2Girafa.svg" alt="Foto 2 Girafa" className='imagensSinestesia'/>
             <img src="./images/foto3Girafa.svg" alt="Foto 3 Girafa" className='imagensSinestesia'/>
-            <img src="./images/foto4Girafa.svg" alt="Foto 4 Girafa" className='imagensSinestesia'/>
+            <img src="./images/vector.svg" alt="Foto 4 Girafa" className='imagensSinestesia'/>
           </div>
           <div className='bpaConteiner'>
             <div className="bpaItem">
@@ -30,7 +30,7 @@ const HavaianasPage = () => {
                 </div>
             </div>
             <div className="bpaItem">
-                <img src="./images/cartela.png" alt="cartela" className="images"/>
+                <img src="./images/cartelaGirafa.svg" alt="cartela" className="images"/>
                 <video className="images" controls ><source src="./videos/cuisinart.mp4" type="video/mp4" /></video>
             </div>
           </div>
