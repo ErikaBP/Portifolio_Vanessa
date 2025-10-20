@@ -1,0 +1,98 @@
+.context {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    justify-content: center;
+    width: 85%;
+    gap: 20px;
+}
+
+.alpha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alphaTitle {
+    font-size: 30px;
+}
+
+.alphaText {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+}
+
+.pAlpha {
+    width: 650px;
+    line-height: 1.6;
+}
+
+.containerCards {
+    display: flex;
+    width: 100%;
+    margin-top: 45px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bpaConteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+}
+
+.bpaItem {
+    display: block;
+    align-items: center;
+    max-width: 50%;
+    align-content: flex-start;
+}
+
+.images {
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+
+.ativo {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.footerHavaianas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.redes:hover {
+    transform: scale(1.1);
+}
+
+.contextFotosAlpa {
+    display: flex;
+    width: 100%;
+    margin-top: 45px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

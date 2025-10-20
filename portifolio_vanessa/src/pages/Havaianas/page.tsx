@@ -32,7 +32,7 @@ const HavaianasPage = () => {
                 </div>
             </div>
             <div className="bpaItem">
-                <img src="./images/cartela.png" alt="cartela" className="images"/>
+                <img width="" src="./images/cartela.png" alt="cartela" className="images"/>
                 <video className="images" controls ><source src="./videos/bpa.mp4" type="video/mp4" /></video>
             </div>
           </div>

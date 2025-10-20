@@ -23,7 +23,7 @@ const HomePage = () => {
               <h2 className='sobreMimTitle'>Sobre mim</h2>
               <p className='pSobre'>Sou a <b>Vanessa Piaui</b>! 🤟</p>
               <p className='pSobre'>
-                Graduanda em <b>Design Digital</b>, técnica em TI e, antes de tudo,
+                Graduanda em <b>Design</b>, técnica em TI e, antes de tudo,
                 alguém apaixonada por <b>pesquisar</b>, <b>comunicar</b> e <b>inventar</b> novas formas e funções.
               </p>
               <p className='pSobre'>

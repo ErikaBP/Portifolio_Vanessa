@@ -21,7 +21,7 @@ import { Link, useNavigate } from 'react-router-dom';
         <Link to="/havaianas" className="linkHeader">  
           <h1 className='h1Header'>Havaianas</h1>
         </Link>
-        <Link to="" className="linkHeader"> 
+        <Link to="/girafa" className="linkHeader"> 
           <h1 className='h1Header'>Girafa</h1>
         </Link>
       </div>
