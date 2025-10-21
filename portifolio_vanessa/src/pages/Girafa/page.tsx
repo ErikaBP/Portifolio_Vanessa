@@ -17,10 +17,10 @@ const HavaianasPage = () => {
             <img src="./images/GirafaMain.png" alt="Vanessa" />
           </div>
           <div className='contextFotosAlpa'>
-            <img src="./images/foto1Girafa.svg" alt="Foto 1 Girafa" className='imagensSinestesia'/>
-            <img src="./images/foto2Girafa.svg" alt="Foto 2 Girafa" className='imagensSinestesia'/>
-            <img src="./images/foto3Girafa.svg" alt="Foto 3 Girafa" className='imagensSinestesia'/>
-            <img src="./images/vector.svg" alt="Foto 4 Girafa" className='imagensSinestesia'/>
+            <img src="/images/foto1Girafa.svg" alt="Foto 1 Girafa" />
+            <img src="/images/foto2Girafa.svg" alt="Foto 2 Girafa" />
+            <img src="/images/foto3Girafa.svg" alt="Foto 3 Girafa" />
+            <img src="/images/vector.svg" alt="Foto 4 Girafa" />
           </div>
           <div className='bpaConteiner'>
             <div className="bpaItem">
