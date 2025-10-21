@@ -1,6 +1,10 @@
 import './page.css';
 import Header from '../../components/header/Header';
 import { Link } from 'react-router-dom';
+import foto1 from './images/foto1Girafa.svg';
+import foto2 from './images/foto2Girafa.svg';
+import foto3 from './images/foto3Girafa.svg';
+import vector from './images/vector.svg';
 
 const HavaianasPage = () => {
     return (
@@ -17,10 +21,10 @@ const HavaianasPage = () => {
             <img src="./images/GirafaMain.png" alt="Vanessa" />
           </div>
           <div className='contextFotosAlpa'>
-            <img src="/images/foto1Girafa.svg" alt="Foto 1 Girafa" />
-            <img src="/images/foto2Girafa.svg" alt="Foto 2 Girafa" />
-            <img src="/images/foto3Girafa.svg" alt="Foto 3 Girafa" />
-            <img src="/images/vector.svg" alt="Foto 4 Girafa" />
+            <img src={"./images/Foto1Girafa.svg"} alt="Foto 1 Girafa" />
+            <img src="./images/Foto2Girafa.svg" alt="Foto 2 Girafa" />
+            <img src="./images/Foto3Girafa.svg" alt="Foto 3 Girafa" />
+            <img src="./images/Vector.svg" alt="Foto 4 Girafa" />
           </div>
           <div className='bpaConteiner'>
             <div className="bpaItem">
