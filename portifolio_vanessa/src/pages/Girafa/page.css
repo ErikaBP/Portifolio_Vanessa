@@ -96,3 +96,92 @@
     margin-bottom: 20px;
     cursor: pointer;
 }
+
+@media (max-width: 1400px) {
+
+    .container {
+        width: 100%;
+        padding: 0 20px;
+        gap: 40px;
+    }
+   
+    .alpha {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .alphaTitle {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .alphaText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pAlpha {
+        width: 100%;
+        max-width: 85%;
+        text-align: center;
+    }
+
+    .alpha img {
+        width: 80%;
+        height: auto;
+    }
+
+    .contextFotosAlpa {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contextFotosAlpa img {
+        width: 85%;
+    }
+
+    .bpaConteiner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .bpaItem {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images {
+        width: 85%;
+        height: auto;
+    }
+
+    .ativo {
+        grid-template-columns: 1fr;
+        width: 85%;
+        justify-items: center;
+    }
+
+    .ativo img {
+        width: 100%;
+    }
+
+    .footerHavaianas {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sinestesia {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .giraFoot {
+        display: flex;
+        width: 80%;
+        height: 80%;
+    }
+}

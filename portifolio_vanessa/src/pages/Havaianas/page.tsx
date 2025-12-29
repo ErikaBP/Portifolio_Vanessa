@@ -37,7 +37,7 @@ const HavaianasPage = () => {
             </div>
           </div>
           <div className='sinestesia'>
-            <img src="./images/havaianas.svg" alt="Scrreen" />
+            <img src="./images/havaianas.svg" alt="Scrreen" className='sinestesiaFoto'/>
           </div>
           <div className='footerHavaianas'>
             <Link to="https://www.instagram.com/vanskyfall?igshid=ZDdkNTZiNTM%3D" className='redes'>

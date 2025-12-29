@@ -1,23 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 .menu {
+    width: 100%;
+    height: 165px;
+    background-color: #191919;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF;
-    background-color: #191919;
-    
-    width: 100%;
-    height: 165px;
-    margin: 0;
+}
+
+.menuContainer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menuItens {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 90%;
     gap: 50px;
+}
+
+.logo {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
 }
 
 .h1Header {
@@ -38,6 +51,11 @@
     cursor: pointer;
     font-size: 18px;
     font-weight: 100;
+}
+
+.h1Header,
+.h1HeaderProjetos {
+    color: #FFFFFF;
 }
 
 .h1Header:hover {
@@ -71,4 +89,62 @@
 
 .linkHeader:hover {
     color: #DD4D00;
+}
+
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+@media (max-width: 1400px) {
+
+    .hamburger {
+        display: block;
+        z-index: 1001;
+        margin-left: auto;
+    }
+
+    .menu {
+        height: 100px;
+    }
+
+    .menuItens {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: #121212;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: 0.4s ease;
+        z-index: 1000;
+    }
+
+    .menuItens.open {
+        right: 0;
+    }
+
+    .h1Header,
+    .h1HeaderProjetos {
+        font-size: 20px;
+    }
 }

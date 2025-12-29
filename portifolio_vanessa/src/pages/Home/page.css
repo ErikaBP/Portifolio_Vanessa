@@ -28,10 +28,13 @@
 }
 
 .sobreMimTitle {
+    display: flex;
     font-size: 30px;
 }
 
 .sobreText {
+    display: flex;
+    flex-direction: column;
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     letter-spacing: 2px;
@@ -146,4 +149,89 @@
 
 .redes:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 1400px) {
+
+    .containerSobre {
+        gap: 40px;
+    }
+
+    .sobreMim,
+    .contextSinestesia,
+    .contextFotosSinestesia {
+        flex-direction: column;
+        width: 100%;
+        gap: 25px;
+    }
+
+    .sinestesiaFoto,
+    .videoSinestesia,
+    .scrreenFoto,
+    .videoScrreen,
+    .imagemVanessa {
+        display: flex;
+        width: 80%;
+        height: 80%;
+    }
+
+    .sobreMimTitle {
+        font-size: 24px;
+        padding: 0 20px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .pSobre,
+    .pSobreSinestesia,
+    .pSobreScreen {
+        width: 85%;
+        text-align: left;
+        padding: 0 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sinestesia {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .estiloVerMais,
+    .estiloVerMaisScreen {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .verMais {
+        width: 160px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .imagensSinestesia {
+        margin-bottom: 15px;
+        width: 50%;
+        height: 20%;
+    }
+
+    .contextFotosSinestesia img {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .imagensSinestesia:hover {
+        transform: scale(1.1);
+    }
+
+    .redesLogo {
+        width: 80%;
+        height: 80%;
+    }
+
+    .footer {
+        margin-top: 40px;
+        width: 85%;
+    }
 }

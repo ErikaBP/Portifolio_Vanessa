@@ -35,17 +35,17 @@ const HomePage = () => {
               </p>
               <p className='pSobre'><b>Bem-vindo(a)!</b> 🙃</p>
             </div>
-            <img src="./images/vanessaSobre.svg" alt="Vanessa" />
+            <img src="./images/vanessaSobre.svg" alt="Vanessa" className='imagemVanessa'/>
           </div>   
         </div>
 
         <div className='sinestesia' ref={projetosRef}>
-          <img src="./images/sinestesiaIcon.svg" alt="Sinestesia" />
+          <img src="./images/sinestesiaIcon.svg" alt="Sinestesia" className='sinestesiaFoto'/>
         </div>
 
         <div className='contextSinestesia'>
-          <video width="640" height="360" controls style={{ borderRadius: '15px' }}>
-            <source src="./videos/sinestesia.mp4" type="video/mp4" />
+          <video className='videoSinestesia' width="640" height="360" controls style={{ borderRadius: '15px' }}>
+            <source src="./videos/sinestesia.mp4" type="video/mp4"/>
           </video>
           <div className='textSinestesia'>
             <p className='pSobreSinestesia'>
@@ -67,7 +67,7 @@ const HomePage = () => {
         </div>
 
         <div className='sinestesia'>
-          <img src="./images/scrreen.svg" alt="Scrreen" />
+          <img src="./images/scrreen.svg" alt="Scrreen" className='scrreenFoto'/>
         </div>
 
         <div className='contextSinestesia'>
@@ -81,8 +81,8 @@ const HomePage = () => {
               <Link to='https://drive.google.com/drive/folders/1ft9ltT62rM2vMB8-4QxmzRyKTbk1yjRg' className='verMais'>Ver mais</Link>
             </div>
           </div>
-          <video width="640" height="360" controls style={{ borderRadius: '15px' }}>
-            <source src="./videos/screen.mp4" type="video/mp4" />
+          <video className='videoScrreen' width="640" height="360" controls style={{ borderRadius: '15px' }}>
+            <source src="./videos/screen.mp4" type="video/mp4"/>
           </video>
         </div>
 
@@ -94,10 +94,10 @@ const HomePage = () => {
 
         <div className='footer'>
           <Link to="https://www.instagram.com/vanskyfall?igshid=ZDdkNTZiNTM%3D" className='redes'>
-            <img src="./images/insta.svg" alt="Instagram" />
+            <img src="./images/insta.svg" alt="Instagram" className='redesLogo'/>
           </Link>
           <Link to="https://www.linkedin.com/in/vanessa-piaui-51b43a229/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className='redes'>
-            <img src="./images/linkedin.svg" alt="Linkedin" />
+            <img src="./images/linkedin.svg" alt="Linkedin" className='redesLogo'/>
           </Link>
         </div>
       </div>
