@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+}
+
 .context {
     display: flex;
     flex-direction: column;
